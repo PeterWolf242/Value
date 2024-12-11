@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Forms-JS-Level-1_3</title>
+  </head>
+  <body>
+    <label for="number1">Alter der 1. Person</label>
+    <input
+      type="number"
+      name="number1"
+      id="number1"
+      placeholder="Gebe das Alter ein"
+    />
+
+    <label for="number2">Alter der 2. Person</label>
+    <input
+      type="number"
+      name="number2"
+      id="number2"
+      placeholder="Gebe das Alter ein"
+    />
+    <button onclick="berechneAlter(); return false">Berechne das Alter</button>
+
+    <div class="output"></div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
